@@ -58,7 +58,6 @@ Feature: Connector
       | USD     |      | 2020-01-01    |
       |         | PLN  | 1999-12-12    |
       | USD,GBP |      | 2010-01-12    |
-      | USD,GBP |      | 2010-01-12    |
 
 
   Scenario Outline: 6 - Rates API for "<future date>" Foreign Exchange rates
