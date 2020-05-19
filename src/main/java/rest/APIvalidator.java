@@ -167,7 +167,6 @@ public class APIvalidator {
             verifyIfCorrectDateIsUsed(SpecificDate);
         }
         String jsonResponse = response.jsonPath().getString("date");
-        System.out.println("date is " + jsonResponse);
     }
 
     public static void GetandAssertResponseWrongURL(boolean isItNegativeTest) {
